@@ -7,3 +7,4 @@ Being sure to get the path correct within your environment (second parameter)
 sap.ui.getCore().loadLibrary("community.wcagHelper", "../../wcagHelper/"); 
 
 For more information about this library, refer to the SAP Blog:
+https://blogs.sap.com/2020/01/15/wcag-compliance-patching-standard-ui5-controls-without-using-extensions/
