@@ -8,9 +8,10 @@
 jQuery.sap.declare("community.wcagHelper.UICatalog");
 community.wcagHelper.UICatalog = {
 	
-	"sap.m.CheckBox": "ControlPatches.CheckBox",
-	"sap.m.Panel": "ControlPatches.Panel",
-	"sap.m.Select": "ControlPatches.Select",
-	"sap.m.Button": "ControlPatches.Button"
+	"sap.m.CheckBox": 	"ControlPatches.CheckBox",
+	"sap.m.Panel": 		"ControlPatches.Panel",
+	"sap.m.Select": 	"ControlPatches.Select",
+	"sap.m.Button": 	"ControlPatches.Button",
+	"sap.m.Table":		"ControlPatches.Table"
 	
 }
