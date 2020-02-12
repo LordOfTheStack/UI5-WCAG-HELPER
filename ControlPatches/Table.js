@@ -19,7 +19,7 @@ community.wcagHelper.ControlPatches.Table = {
 		var hiddenCols = this.$().find("th[aria-hidden=true]");
 		var oldColspan = this.$().find("th").length;
 		var newColspan = oldColspan - hiddenCols.length;
-	    this.$().find("*[aria-hidden=true]").css("display","none");
+	    this.$().find("table").find("*[aria-hidden=true]:not(.sapUiIcon)").css("display","none");
 	    this.$().find("td[colspan=" + oldColspan + "]").attr("colspan",newColspan); //re-apply any colspans to reflect the changes
 	    
 	    
